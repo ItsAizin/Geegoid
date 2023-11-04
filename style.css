@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "RuneScape";
+    src: url("/Extra/RuneScape\ Regular.ttf");
+}
+
+body {
+    font-family: "RuneScape";
+    background-color: cyan;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+p {
+    font-size: x-large;
+}
+
+form {
+    background-color: #343434bb;
+    margin: auto;
+    width: 20%;
+    padding-top: .1em;
+    padding-bottom: .7em;
+    border-radius: .4em;
+}
+
+label {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+#intro {
+    width: 50%;
+    margin: auto;
+    font-size: larger;
+}
+
+img {
+    width: 1.5em;    
+}
+
+.review-container { 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+    color: #343434;
+}
+
+.review {
+    width: 47%;
+    box-shadow: 0 0 1em;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1%;
+    margin: auto;
+
+}
+
+.review-name {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.review-body {
+    text-align: left;
+}
+
+.nav { 
+    margin-left: 60%;
+}
+
+
+.nav ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 50%;
+    
+}
+
+.nav ul li a {
+    font-size: x-large;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav ul li a:hover {
+    background-color: #f4ecff;
+    color: #343434;
+    border-radius: 1em;
+    padding: .5em;
+}
+
+#temperature {
+    width: 20em;
+    margin-right: 70%;
+}
+
+table {
+    width: 60%;
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table p { 
+    font-size: x-large;
+    margin-bottom: 13em;
+}
+
+#geegoids {
+    font-size: 70%;
+}
+
+#users {
+    background-color: #343434;
+    list-style: none;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}

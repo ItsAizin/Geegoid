@@ -15,18 +15,12 @@ p {
 
 form {
     background-color: #343434bb;
+    color: #f4ecff;
     margin: auto;
     width: 20%;
     padding-top: .1em;
     padding-bottom: .7em;
     border-radius: .4em;
-}
-
-label {
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    text-align: center;
 }
 
 #intro {
@@ -84,6 +78,7 @@ img {
 }
 
 .nav ul li a {
+    color:#343434;
     font-size: x-large;
     text-decoration: none;
     transition: all 0.3s ease 0s;

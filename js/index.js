@@ -5,15 +5,6 @@ let kelvinID = document.getElementById("Kelvin");
 let userTexts = document.getElementsByClassName("user-text");
 let userPics = document.getElementsByClassName("user-pic");
 let userTextID = document.getElementById("user-text");
-let mode = localStorage.getItem("mode");
-const button = document.querySelector("#button");
-const css = document.getElementById("css");
-
-if (mode == "dark") {
-    css.href = "/Extra/style.dark.css";
-} else {
-    css.href = "/Extra/style.css";
-}
 
 function showReview() { 
     for (let userPic of userPics) {

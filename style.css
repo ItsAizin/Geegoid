@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Modern Sans";
-    src: url("/Extra/MODERNE\ SANS.ttf");
+    src: url("MODERNE SANS.ttf");
 }
 
 @keyframes fadeIn {

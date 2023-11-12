@@ -6,19 +6,6 @@ let userTexts = document.getElementsByClassName("user-text");
 let userPics = document.getElementsByClassName("user-pic");
 let userTextID = document.getElementById("user-text");
 
-function toggle_style() {
-    mode = localStorage.getItem("mode");
-    if (document.body.classList == "darkmode") {
-        document.body.classList.remove("darkmode");
-        css.href = "/main.css";
-        localStorage.setItem("mode", null);
-    } else {
-        document.body.classList.add("darkmode");
-        css.href = "/main.dark.css";
-        localStorage.setItem("mode", "dark");
-    }
-}
-
 function showReview() { 
     for (let userPic of userPics) {
         userPic.classList.remove("active-pic");

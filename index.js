@@ -8,6 +8,8 @@ let userTextID = document.getElementById("user-text");
 const button = document.getElementById("button");
 const css = document.getElementById("css");
 
+let mode = localStorage.getItem("mode");
+
 if (mode == "dark") {
     css.href = "style.dark.css";
 } else {

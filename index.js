@@ -5,7 +5,7 @@ let kelvinID = document.getElementById("Kelvin");
 let userTexts = document.getElementsByClassName("user-text");
 let userPics = document.getElementsByClassName("user-pic");
 let userTextID = document.getElementById("user-text");
-const button = document.querySelector("#button");
+const button = document.getElementById("button");
 const css = document.getElementById("css");
 
 if (mode == "dark") {

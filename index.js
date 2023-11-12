@@ -5,16 +5,6 @@ let kelvinID = document.getElementById("Kelvin");
 let userTexts = document.getElementsByClassName("user-text");
 let userPics = document.getElementsByClassName("user-pic");
 let userTextID = document.getElementById("user-text");
-const button = document.getElementById("button");
-const css = document.getElementById("css");
-
-let mode = localStorage.getItem("mode");
-
-if (mode == "dark") {
-    css.href = "style.dark.css";
-} else {
-    css.href = "style.css";
-}
 
 function toggle_style() {
     mode = localStorage.getItem("mode");
@@ -70,5 +60,3 @@ kelvinID.addEventListener("input", function() {
     geegoidsID.value = 0.000367899 * celsiusID.value + 1;
     fahrenheitID.value = ((9/5) * celsiusID.value) + 32;
 });
-
-button.addEventListener("click", toggle_style);
